@@ -1,0 +1,10 @@
+@mixin boxCommon($color) {
+    border: 2px solid white;
+    background-color: $color;
+    height: min-content;
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;       
+}

@@ -1,0 +1,20 @@
+@use 'base';
+@use 'mixin';
+
+main{
+    background-color: black;
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,28vw);
+    grid-template-rows: repeat(1,30vw);
+    gap: 5%;
+    align-content: center;
+    justify-content: center;
+    div{
+    @include mixin.boxCommon(base.$color1);
+    height: 100%;
+}
+    
+}

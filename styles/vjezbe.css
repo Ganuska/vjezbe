@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: black;
+  padding: 10px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 28vw);
+  grid-template-rows: repeat(1, 30vw);
+  gap: 5%;
+  align-content: center;
+  justify-content: center;
+}
+main div {
+  border: 2px solid white;
+  background-color: gray;
+  height: min-content;
+  display: flex;
+  flex-basis: 25%;
+  justify-content: center;
+  align-items: center;
+  font-size: 20vmin;
+  height: 100%;
+}
+
+/*# sourceMappingURL=vjezbe.css.map */
