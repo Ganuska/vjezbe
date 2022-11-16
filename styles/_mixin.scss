@@ -6,5 +6,19 @@
     flex-basis: 25%;
     justify-content: center;
     align-items: center;
-    font-size: 8rem;       
+    font-size: 20vmin;       
+    height: 100%;
+    animation: splash 1s normal forwards ease-in-out;
+    // animation-duration: 3s;
+    transform: translateY(-550px);
+animation-name: padaj;
+    @keyframes  padaj {
+        0% {
+            transform: translateY(-550px);
+          }
+        
+          100% {
+            transform: translateY(0px);
+          }
+    }
 }

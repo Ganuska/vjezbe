@@ -12,9 +12,17 @@ main{
     gap: 5%;
     align-content: center;
     justify-content: center;
-    div{
+
+.container1{
     @include mixin.boxCommon(base.$color1);
-    height: 100%;
+    animation-delay: 2s;
 }
-    
+.container2{
+    @include mixin.boxCommon(base.$color2);
+    animation-delay: 3s;
+}
+.container3{
+    @include mixin.boxCommon(base.$color3);
+    animation-delay: 4s;
+}   
 }
